@@ -1,0 +1,35 @@
+.project-item{
+    width:1300px;
+    height:600px;
+    margin-top:200px;
+}
+.project-item a{
+    text-decoration: none;
+}
+.project-img{
+    width:800px;
+    height:400px;
+    float:left;
+
+
+}
+.project-img>img{
+    width:700px;
+    height:500px;
+    border-radius: 50px;
+    border:3px solid black;
+}
+.project-info{
+    width:400px;
+    height:600px;
+    float:left;
+
+    margin-left: 10px;
+    line-height: 30px;
+
+    font-size:15px;
+    border-left: 2px solid #7872b6;
+}
+.project-info p{
+    margin-left:50px;
+}

@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+.food-list{
+    width:300px;
+    height:400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+    font-family: 'TheJamsil5Bold';
+    text-align: center;
+}
+.food-list>h3{
+    margin-top: 10px;
+}
+.food-img{
+    border-bottom:1px solid black;
+    border-radius: 20px 20px 0px 0px;
+    width:300px;
+    height:300px;
+
+}
+.food-img img{
+    border-radius: 20px 20px 0px 0px;
+    width:300px;
+    height:300px;
+}
+.food-info{
+    width:510px;
+    height:400px;
+}

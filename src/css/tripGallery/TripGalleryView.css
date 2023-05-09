@@ -1,0 +1,32 @@
+
+
+.desc{
+    width:298px;
+    height:200px;
+    float:right;
+    text-align: center;
+
+}
+.desc h3 {
+    margin-top: 50px;
+}
+
+
+.detail-img{
+    width:200px;
+    height:200px;
+}
+
+.detail-img>img{
+    width:200px;
+    height:200px;
+    border-radius: 200px;
+    margin-top: 10px;
+}
+.one:hover{
+    border:2px solid yellow;
+}
+
+.two:hover{
+    border:2px solid yellow;
+}

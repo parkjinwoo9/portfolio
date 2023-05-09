@@ -1,0 +1,13 @@
+.project{
+    width:95%;
+    height:1200px;
+    float:right;
+}
+.project-container{
+    text-align: center;
+
+}
+.project-container>h2{
+    font-size: 50px;
+    margin-top: 200px;
+}

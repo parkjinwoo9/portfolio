@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.home a{
+  text-decoration: none;
+  color:black;
+}
+.home{
+    width:95%;
+    height:961px;
+    text-align: center;
+}
+
+.home-info{
+    width:50%;
+    height:600px;
+    position: relative;
+    float:left;
+    margin-top:300px;
+
+}
+
+h1{
+    font-size: 100px;
+    line-height: 150px;
+    font-family: var(--font);
+    
+    color:#7872b6;
+    animation: fadeIn 2s ease-in-out;
+}
+.imdev{
+  animation: fadeIn 2s ease-in-out;
+}
+.home-info span{
+    font-family: 'GmarketSansMedium';
+}
+
+
+
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(-20px);
+    }
+    to{
+        opacity:3;
+        transform:none;
+    }
+}
+
+
+
+
+.bottom-container,
+.top-container {
+  width: 40vw;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 35vh;
+  left: 30vw;
+  padding: 1vw;
+}
+
+.bottom-container {
+  color: #232323;
+}
+
+.top-container {
+  background-color: red;
+  color: white;
+  clip-path: circle(13% at 85% 50%);
+  animation: circleMove 100s ease-in-out infinite;
+}
+
+@keyframes circleMove {
+  0%, 100% {
+    clip-path: circle(13% at 85% 50%);
+  }
+  50% {
+    clip-path: circle(13% at 15% 50%);
+  }
+}

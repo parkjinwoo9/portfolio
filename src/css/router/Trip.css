@@ -1,0 +1,20 @@
+.trip{
+    width:90%;
+    height:100%;
+    float:right;
+    margin:0 auto;
+}
+.trip>header{
+    width:95%;
+    height:50px;
+    background-color: #7872b6;
+    float:left;
+    font-family: 'WandohopeR';
+    
+}
+.trip>header>h2{
+    float:right;
+    margin-right: 50px;
+    margin-top: 7px;
+    color:#ffff;
+}

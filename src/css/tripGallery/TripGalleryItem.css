@@ -1,0 +1,19 @@
+.g-item{
+    width:100px;
+    height:100px;
+    float:left;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.g-item img{
+    width:100px;
+    height:100px;
+    float:left;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    margin-top: 10px;
+}
+.g-item img:hover{
+    transform: scale(1.4);
+
+}

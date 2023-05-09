@@ -1,0 +1,51 @@
+.board-list{
+    width:1600px;
+    height:800px;
+
+
+}
+.board-header{
+    width:100%;
+    height:50px;
+
+    text-align: center;
+    border-top:1px solid black;
+
+}
+.board-header>span{
+    box-sizing: border-box;
+    padding-top: 12px;
+}
+.board-header>span:first-child{
+    width:82px;
+    height:50px;
+    border-right:1px solid black;
+    float:left;
+}
+.board-header>span:nth-child(2){
+    width:30%;
+    height:50px;
+    border-right:1px solid black;
+    float:left;
+}
+.board-header>span:nth-child(3){
+    width:5%;
+    height:50px;
+    border-right:1px solid black;
+    float:left;
+}
+.board-header>span:nth-child(4){
+    width:50%;
+    height:50px;
+    border-right:1px solid black;
+    float:left;
+}
+.write{
+    float:right;
+    width:100px;
+    height:50px;
+    border:1px solid black;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+}
